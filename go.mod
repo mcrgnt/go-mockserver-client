@@ -1,4 +1,4 @@
-module github.com/yfzhou0904/mock-server-client
+module github.com/mcrgnt/go-mockserver-client
 
 go 1.14
 
