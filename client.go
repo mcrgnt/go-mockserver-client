@@ -22,7 +22,7 @@ func NewClient(host string, port int) MockServerClient {
 func NewClientURL(url string) MockServerClient {
 	return MockServerClient{
 		restyClient: resty.New().
-			SetHostURL(url),
+			SetBaseURL(url),
 	}
 }
 
